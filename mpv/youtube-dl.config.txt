@@ -1,0 +1,5 @@
+-f "bestvideo[height<=?720][fps<=?60][vcodec!=?vp9]+bestaudio[ext!=webm]"
+-o %USERPROFILE%/Downloads/%\(title\)s.%\(ext\)s
+--merge-output-format mp4
+# --external-downloader aria2c
+--external-downloader-args "-c -s 10 -k 1M -x 10"
