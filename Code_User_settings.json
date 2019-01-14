@@ -1,0 +1,53 @@
+{
+    "editor.fontSize": 12,
+    "editor.rulers": [80,100,120],
+
+    "workbench.colorTheme": "Monokai",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "workbench.statusBar.feedback.visible": false,
+    "terminal.integrated.fontSize": 12,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-k>": false,
+        "<C-w>": false
+    },
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    "zenMode.hideTabs": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.centerLayout": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "window.zoomLevel": 1,
+
+    "explorer.confirmDragAndDrop": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=",
+    ],
+    "gitlens.codeLens.enabled": false,
+    "breadcrumbs.enabled": true,
+    "terminal.integrated.scrollback": 10000,
+
+    // ubuntu 18.04 custom
+    "window.titleBarStyle": "custom",
+    "window.title": "",
+}
