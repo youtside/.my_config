@@ -33,7 +33,6 @@
     "zenMode.centerLayout": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "window.zoomLevel": 1,
 
     "explorer.confirmDragAndDrop": false,
     "python.linting.pylintEnabled": false,
