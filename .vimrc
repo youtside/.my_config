@@ -55,7 +55,7 @@ autocmd FileType python set foldmethod=indent
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h set tabstop=4
 au BufRead,BufNewFile *.py set softtabstop=4
 au BufRead,BufNewFile *.py,*.pyw set shiftwidth=4
-au BufRead,BufNewFile *.py,*.pyw, set textwidth=79
+au BufRead,BufNewFile *.py,*.pyw, set textwidth=120
 au BufRead,BufNewFile *.py,*.pyw set expandtab
 
 " Keep indentation level from previous line:
