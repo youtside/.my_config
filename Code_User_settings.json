@@ -39,7 +39,8 @@
     "zenMode.centerLayout": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-
+    "gitlens.codeLens.enabled": false,
+    
     "explorer.confirmDragAndDrop": false,
     "python.linting.pylintEnabled": false,
     "python.jediEnabled": false,
@@ -49,8 +50,7 @@
         "--max-line-length=120",
         "--ignore=",
     ],
-    "gitlens.codeLens.enabled": false,
-    "breadcrumbs.enabled": true,
+    //"breadcrumbs.enabled": true,
     "terminal.integrated.scrollback": 10000,
     "workbench.tree.indent": 20,
     "window.zoomLevel": 0.25,
