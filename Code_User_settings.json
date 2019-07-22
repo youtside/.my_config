@@ -1,8 +1,9 @@
 {
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "editor.rulers": [80,100,120],
     "editor.mouseWheelZoom": true,
-    
+    "workbench.tree.indent": 20,
+    "window.zoomLevel": 0.25,    
     "workbench.colorTheme": "Monokai",
     "files.exclude": {
         // Python
@@ -14,7 +15,6 @@
     },
   
     "workbench.statusBar.feedback.visible": false,
-    "terminal.integrated.fontSize": 12,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -52,8 +52,7 @@
     ],
     //"breadcrumbs.enabled": true,
     "terminal.integrated.scrollback": 10000,
-    "workbench.tree.indent": 20,
-    "window.zoomLevel": 0.25,
+    "terminal.integrated.fontSize": 12,
 
     // ubuntu 18.04 custom
     "window.titleBarStyle": "custom",
