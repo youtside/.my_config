@@ -5,9 +5,14 @@
     
     "workbench.colorTheme": "Monokai",
     "files.exclude": {
+        // Python
         "**/__pycache__": true,
-        "**/*.pyc": true
+        "**/*.pyc": true,
+        ".eggs": true,
+        "*.egg-info": true,
+        "venv": true,
     },
+  
     "workbench.statusBar.feedback.visible": false,
     "terminal.integrated.fontSize": 12,
     "gitlens.advanced.messages": {
@@ -37,6 +42,7 @@
 
     "explorer.confirmDragAndDrop": false,
     "python.linting.pylintEnabled": false,
+    "python.jediEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
@@ -46,6 +52,8 @@
     "gitlens.codeLens.enabled": false,
     "breadcrumbs.enabled": true,
     "terminal.integrated.scrollback": 10000,
+    "workbench.tree.indent": 20,
+    "window.zoomLevel": 0.25,
 
     // ubuntu 18.04 custom
     "window.titleBarStyle": "custom",
