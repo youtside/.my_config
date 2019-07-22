@@ -8,9 +8,9 @@
         // Python
         "**/__pycache__": true,
         "**/*.pyc": true,
-        ".eggs": true,
-        "*.egg-info": true,
-        "venv": true,
+        "**/.eggs": true,
+        "**/*.egg-info": true,
+        "**/venv": true,
     },
   
     "workbench.statusBar.feedback.visible": false,
