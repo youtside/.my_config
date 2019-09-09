@@ -54,6 +54,8 @@
     //"breadcrumbs.enabled": true,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.fontSize": 12,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
 
     // ubuntu 18.04 custom
     "window.titleBarStyle": "custom",
