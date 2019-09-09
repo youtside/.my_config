@@ -15,7 +15,6 @@
         "**/venv": true,
     },
   
-    "workbench.statusBar.feedback.visible": false,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
