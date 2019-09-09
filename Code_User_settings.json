@@ -31,6 +31,7 @@
         "<C-k>": false,
         "<C-w>": false
     },
+    "vim.replaceWithRegister": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
 
