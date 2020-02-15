@@ -1,10 +1,13 @@
 {
     "editor.fontSize": 13,
-    "editor.rulers": [80,100],
+    "editor.rulers": [
+        80,
+        100
+    ],
     "editor.mouseWheelZoom": true,
     "editor.lineNumbers": "relative",
     "workbench.tree.indent": 20,
-    "window.zoomLevel": 0.25,    
+    "window.zoomLevel": 0.25,
     "workbench.colorTheme": "Monokai",
     "files.exclude": {
         // Python
@@ -14,7 +17,6 @@
         "**/*.egg-info": true,
         "**/venv": true,
     },
-  
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -29,19 +31,19 @@
         "<C-a>": false,
         "<C-f>": false,
         "<C-k>": false,
-        "<C-w>": false
+        "<C-w>": false,
+        "<C-c>": false,
+        "<C-v>": false
     },
     "vim.replaceWithRegister": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-
     "zenMode.hideTabs": false,
     "zenMode.hideStatusBar": false,
     "zenMode.centerLayout": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "gitlens.codeLens.enabled": false,
-    
     "explorer.confirmDragAndDrop": false,
     "python.linting.pylintEnabled": false,
     "python.jediEnabled": false,
@@ -51,13 +53,11 @@
         "--max-line-length=96",
         "--ignore=",
     ],
-    //"breadcrumbs.enabled": true,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.shell.linux": "/bin/bash",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
-
     // ubuntu 18.04 custom
-    "window.titleBarStyle": "custom",
-    "window.title": "",
+    // "window.titleBarStyle": "custom",
+    // "window.title": "",
 }
