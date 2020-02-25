@@ -45,13 +45,17 @@
     "gitlens.views.lineHistory.enabled": true,
     "gitlens.codeLens.enabled": false,
     "explorer.confirmDragAndDrop": false,
-    "python.linting.pylintEnabled": false,
     "python.jediEnabled": false,
-    "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=96",
         "--ignore=",
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "96"
     ],
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.fontSize": 12,
