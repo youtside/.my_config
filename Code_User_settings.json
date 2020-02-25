@@ -1,8 +1,8 @@
 {
     "editor.fontSize": 13,
     "editor.rulers": [
-        80,
-        100
+        90,
+        110
     ],
     "editor.mouseWheelZoom": true,
     "editor.lineNumbers": "relative",
