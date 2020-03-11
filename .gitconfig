@@ -1,5 +1,5 @@
 [user]
-    name = Steve Qian
+    name = 
     email = 
 [filter "lfs"]
     clean = git-lfs clean -- %f
