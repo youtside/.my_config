@@ -24,8 +24,6 @@
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
     },
     "vim.handleKeys": {
         "<C-a>": false,
@@ -42,7 +40,6 @@
     "zenMode.hideStatusBar": false,
     "zenMode.centerLayout": false,
     "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
     "gitlens.codeLens.enabled": false,
     "explorer.confirmDragAndDrop": false,
     "python.jediEnabled": false,
