@@ -63,4 +63,16 @@
     // ubuntu 18.04 custom
     // "window.titleBarStyle": "custom",
     // "window.title": "",
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+    },
 }
