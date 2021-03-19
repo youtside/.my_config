@@ -77,7 +77,7 @@
         "editor.detectIndentation": false,
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.detectIndentation": false,
         "editor.tabSize": 2,
     },
