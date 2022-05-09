@@ -1,92 +1,106 @@
 {
-    "editor.fontSize": 13,
-    "editor.rulers": [
-        90,
-        110
-    ],
-    "editor.mouseWheelZoom": true,
-    "editor.lineNumbers": "relative",
-    "workbench.tree.indent": 20,
-    "window.zoomLevel": 0.25,
-    "workbench.colorTheme": "Monokai",
-    "files.exclude": {
-        // Python
-        "**/__pycache__": true,
-        "**/*.pyc": true,
-        "**/.eggs": true,
-        "**/*.egg-info": true,
-        "**/venv": true,
-    },
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-    },
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false,
-        "<C-k>": false,
-        "<C-w>": false,
-        "<C-c>": false,
-        "<C-v>": false
-    },
-    "vim.replaceWithRegister": true,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "zenMode.hideTabs": false,
-    "zenMode.hideStatusBar": false,
-    "zenMode.centerLayout": false,
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.codeLens.enabled": false,
-    "explorer.confirmDragAndDrop": false,
-    "python.jediEnabled": false,
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
-        "--max-line-length",
-        "96",
-        "--ignore",
-        "E203, E266, E501, W503, F403, F401",
-    ],
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "96"
-    ],
-    "terminal.integrated.scrollback": 10000,
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
-    // ubuntu 18.04 custom
-    // "window.titleBarStyle": "custom",
-    // "window.title": "",
-
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/**": true
-    },
-    "prettier.printWidth": 96,
-    "prettier.singleQuote": true,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.detectIndentation": false,
-        "editor.tabSize": 2,
-    },
-    "[yaml]": {
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.detectIndentation": false,
-    },
+  "editor.fontSize": 13,
+  "editor.rulers": [90, 110],
+  "editor.mouseWheelZoom": false,
+  "editor.lineNumbers": "relative",
+  "workbench.tree.indent": 20,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Monokai",
+  "files.exclude": {
+    // Python
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.eggs": true,
+    "**/*.egg-info": true,
+    "**/venv": true
+  },
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-k>": false,
+    "<C-w>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-d>": false
+  },
+  "vim.replaceWithRegister": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "zenMode.hideTabs": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.centerLayout": false,
+  "gitlens.codeLens.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--max-line-length",
+    "96",
+    "--ignore",
+    "E203, E266, E501, W503, F403, F401"
+  ],
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "96"],
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontSize": 12,
+  "python.languageServer": "Default",
+  "jupyter.askForKernelRestart": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  "workbench.startupEditor": "none",
+  "remote.SSH.remotePlatform": {
+    "k3s-n1": "linux",
+    "focal-dev01": "linux",
+    "10.10.49.2": "linux"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100 }",
+  "workbench.enableExperiments": false,
+  "telemetry.telemetryLevel": "off",
+  "workbench.iconTheme": "material-icon-theme",
+  "settingsSync.ignoredExtensions": ["christian-kohler.npm-intellisense"],
+  "prettier.printWidth": 104,
+  "terminal.integrated.defaultProfile.linux": "tmux ws-session",
+  "terminal.integrated.profiles.linux": {
+    "tmux ws-session": {
+      "path": "tmux",
+      "args": ["new-session", "-A", "-s", "vscode-${workspaceFolderBasename}"]
+    }
+  }
 }
