@@ -47,8 +47,7 @@
     "--ignore",
     "E203, E266, E501, W503, F403, F401"
   ],
-  "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["--line-length", "96"],
+  "black-formatter.args": ["--line-length", "96"],
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.fontSize": 12,
   "python.languageServer": "Default",
@@ -62,7 +61,7 @@
   "[python]": {
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "[javascript]": {
     "editor.tabSize": 2,
@@ -96,9 +95,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "settingsSync.ignoredExtensions": ["christian-kohler.npm-intellisense"],
   "prettier.printWidth": 104,
-  "terminal.integrated.defaultProfile.linux": "tmux ws-session",
+  "terminal.integrated.defaultProfile.linux": "tmux",  # "tmux ws-session",
   "terminal.integrated.profiles.linux": {
-    "tmux ws-session": {
+    "tmux": {  # "tmux ws-session": {
       "path": "tmux",
       "args": ["new-session", "-A", "-s", "vscode-${workspaceFolderBasename}"]
     }
