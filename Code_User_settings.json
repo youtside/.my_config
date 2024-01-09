@@ -101,5 +101,10 @@
       "path": "tmux",
       "args": ["new-session", "-A", "-s", "vscode-${workspaceFolderBasename}"]
     }
-  }
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontWeight": "350",
+  "aws.telemetry": false
 }
