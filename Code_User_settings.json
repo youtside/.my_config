@@ -38,6 +38,7 @@
   "zenMode.hideStatusBar": false,
   "zenMode.centerLayout": false,
   "gitlens.codeLens.enabled": false,
+  "gitlens.plusFeatures.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "python.linting.enabled": true,
   "python.linting.flake8Enabled": true,
